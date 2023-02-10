@@ -24,3 +24,8 @@ In total there are 10 wires going from right (MCU half) to left (no MCU half):
     https://github.com/fgebhart/qmk_firmware/pull/1/files
 3. modify keymap according to needs: https://github.com/fgebhart/qmk_firmware/blob/fgebhart_single_mcu_corne/keyboards/crkbd/keymaps/fgebhart/keymap.c
 4. connect keyboard and flash again: `qmk flash -e BOOTLOADER=atmel-dfu`
+
+
+## Layout
+
+![](https://raw.githubusercontent.com/fgebhart/keymaps/main/corne/3x6/keymap.svg)
